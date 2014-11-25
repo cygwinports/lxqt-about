@@ -10,5 +10,8 @@ product of the merge between the LXDE-Qt and the Razor-qt projects: A
 lightweight, modular, blazing-fast and user-friendly desktop environment."
 HOMEPAGE="http://lxqt.org/"
 SRC_URI="http://lxqt.org/downloads/lxqt/${VERSION}/${NAME}-${VERSION}.tar.xz"
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/lxqt-about.git/plain/lxqt-about-0.8.0-qt5-datadir.patch
+"
 
 export USE_QT5=1
